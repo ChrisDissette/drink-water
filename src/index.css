@@ -7,7 +7,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* .container {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+} */
+
+.bg-img {
+  min-height: 100vh;
+  background-image: url("assets/hydration.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
